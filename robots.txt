@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://majieddd.github.io/fitted/sitemap.xml
