@@ -9,10 +9,10 @@
  *     the background — these are big and change only on redeploy
  *   - never cache retailer product images (they're on other origins and huge)
  */
-// 20260818220824 is replaced at build time. Without it the cache name never
+// 20260818221656 is replaced at build time. Without it the cache name never
 // changed between deploys, so returning users kept getting the OLD app —
 // caught by driving the deployed site after a fix and seeing stale output.
-const VERSION = "fitted-20260818220824";
+const VERSION = "fitted-20260818221656";
 const SHELL = `${VERSION}-shell`;
 const DATA = `${VERSION}-data`;
 const BASE = new URL(self.registration.scope).pathname.replace(/\/$/, "");
